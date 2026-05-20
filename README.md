@@ -1,6 +1,6 @@
 <div align="center">
-  <h1>💻 VCS v2</h1>
-  <h3>Gökkuşağı Bilgisayar Varyant Konfigürasyon Sistemi</h3>
+  <h1>VCS</h1>
+  <h3>Varyant Konfigürasyon Sistemi</h3>
   <p>Bilgisayar bileşenleri ve donanım varyantları için gelişmiş maliyet ve kâr hesaplama otomasyonu.</p>
 </div>
 
