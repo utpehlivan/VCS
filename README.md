@@ -15,7 +15,6 @@
 
 - [Hakkında](#-hakkında)
 - [Özellikler](#-özellikler)
-- [Ekran Görüntüleri](#-ekran-görüntüleri)
 - [Kurulum](#-kurulum)
 - [Kullanım](#-kullanım)
 - [Otomatik Güncellemeler](#-otomatik-güncellemeler)
