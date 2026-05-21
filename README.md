@@ -18,9 +18,7 @@
 - [Ekran Görüntüleri](#-ekran-görüntüleri)
 - [Kurulum](#-kurulum)
 - [Kullanım](#-kullanım)
-- [Proje Yapısı](#-proje-yapısı)
 - [Otomatik Güncellemeler](#-otomatik-güncellemeler)
-- [Derleme & Dağıtım](#-derleme--dağıtım)
 - [Değişiklik Günlüğü](#-değişiklik-günlüğü)
 
 ---
@@ -50,7 +48,7 @@ Uygulama, farklı donanım bileşenlerinin tüm olası kombinasyonlarını otoma
 
 ### Fiyatlandırma & Hesaplama
 - **KDV Hesaplaması:** Özelleştirilebilir KDV oranı ile otomatik hesaplama
-- **GK Hedef Kâr Marjı:** Şirket kâr oranı üzerinden satış fiyatı belirleme
+- **Hedef Kâr Marjı:** Şirket kâr oranı üzerinden satış fiyatı belirleme
 - **Pazaryeri Kâr Marjı:** Ek pazaryeri komisyonu dahil nihai fiyat hesaplama
 - **Kartezyen Çarpım:** Tüm bileşen kombinasyonlarının otomatik oluşturulması
 
@@ -79,16 +77,6 @@ Uygulama, farklı donanım bileşenlerinin tüm olası kombinasyonlarını otoma
 
 > **Not:** Uygulama yönetici hakları gerektirmez ve kullanıcı dizinine (`%LOCALAPPDATA%\Programs`) kurulur.
 
-### Kaynak Koddan Çalıştırma (Geliştiriciler İçin)
-
-```bash
-# Gerekli bağımlılığı yükleyin
-pip install openpyxl
-
-# Uygulamayı çalıştırın
-python "VCS v2.py"
-```
-
 ---
 
 ## 💡 Kullanım
@@ -100,65 +88,14 @@ python "VCS v2.py"
 
 ---
 
-## 📁 Proje Yapısı
-
-```
-VCS v2/
-├── VCS v2.py             # Ana uygulama (Tkinter GUI)
-├── version.py            # Versiyon bilgisi ve yardımcı fonksiyonlar
-├── version.json          # Versiyon metadata (güncelleme kontrolü için)
-├── updater.py            # Otomatik güncelleme modülü (GitHub API)
-├── build.py              # PyInstaller ile EXE derleme scripti
-├── create_release.py     # GitHub Release oluşturma ve asset yükleme
-├── upload_to_github.py   # GitHub Contents API ile dosya yükleme
-├── installer.iss         # Inno Setup kurulum scripti
-├── logo.ico              # Uygulama ikonu
-├── dist/                 # Derlenmiş EXE çıktısı
-└── installer_output/     # Inno Setup kurulum dosyası çıktısı
-```
-
----
-
 ## 🔄 Otomatik Güncellemeler
 
 Uygulamanın içerisinde dahili bir otomatik güncelleme modülü bulunmaktadır:
 
-1. Uygulama her açılışta arka planda GitHub'dan `version.json` dosyasını kontrol eder.
-2. Yeni bir sürüm tespit edildiğinde kullanıcıya bir güncelleme bildirimi gösterilir.
-3. Kullanıcı "Güncelle" butonuna tıkladığında, yeni EXE dosyası GitHub Release'den indirilir.
-4. İndirme tamamlandıktan sonra bir batch script aracılığıyla mevcut EXE yenisiyle değiştirilir ve uygulama yeniden başlatılır.
-
-> **Teknik Not:** Güncellemeler GitHub Release Asset olarak dağıtılır (saf binary), git blob bozulması riski yoktur.
-
----
-
-## 🔨 Derleme & Dağıtım
-
-### 1. EXE Oluşturma
-
-```bash
-python build.py
-```
-
-Bu komut PyInstaller ile tek dosyalık bir `.exe` oluşturur (`dist/VCS v2.exe`).
-
-### 2. Kurulum Paketi Oluşturma
-
-[Inno Setup 6](https://jrsoftware.org/isdl.php) yüklendikten sonra `installer.iss` dosyasını açıp derleyin. Çıktı: `installer_output/VCS v2 Setup.exe`
-
-### 3. GitHub Release Yayınlama
-
-```bash
-# version.json ve version.py'deki versiyon numarasını güncelleyin
-# Ardından release oluşturun ve asset'leri yükleyin:
-python create_release.py
-```
-
-### 4. version.json Güncelleme (GitHub Repo)
-
-```bash
-python upload_to_github.py
-```
+1. Uygulama her açılışta arka planda güncellemeleri kontrol eder.
+2. Yeni bir sürüm tespit edildiğinde güncelleme bildirimi gözükür.
+3. "Güncelle" butonuna tıkladığında, yeni sürüm indirilir.
+4. İndirme tamamlandıktan sonra bir hata mesajı gelmesini beklemelisiniz, hata mesajı geldikten sonra hata penceresini kapatın ve uygulamayı açtığınızda yeni sürüme geçmiş olacaktır.
 
 ---
 
@@ -185,7 +122,7 @@ python upload_to_github.py
 ---
 
 <div align="center">
-  <i>© 2026 Umut Talip PEHLİVAN - Gökkuşağı Bilgisayar</i>
+  <i>© 2026 Umut Talip PEHLİVAN</i>
   <br><br>
   <b>VCS v2</b> ile bilgisayar konfigürasyonlarınızı profesyonelce yönetin. 🚀
 </div>
