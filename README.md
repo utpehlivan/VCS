@@ -59,7 +59,7 @@ Uygulama, farklı donanım bileşenlerinin tüm olası kombinasyonlarını otoma
 - 💰 **Para birimi ve yüzde formatları** otomatik uygulanır
 
 ### Diğer
-- 🔄 **Otomatik güncelleme** – GitHub Release üzerinden sessiz güncelleme
+- 🔄 **Otomatik güncelleme**
 - 🔁 **Form sıfırlama** – Tek tıkla tüm alanları temizleme
 - 🖱️ **Kaydırılabilir arayüz** – Mouse tekerleği ile kolay navigasyon
 - 🎨 **Göz dostu tasarım** – Sıcak tonlarda soft renk paleti
