@@ -3,7 +3,7 @@
   <h3>Varyant Konfigürasyon Sistemi</h3>
   <p>Bilgisayar bileşenleri ve donanım varyantları için gelişmiş maliyet ve kâr hesaplama otomasyonu.</p>
 
-  ![Sürüm](https://img.shields.io/badge/Sürüm-v2.2.11-blue?style=for-the-badge)
+  ![Sürüm](https://img.shields.io/badge/Sürüm-v2.2.12-blue?style=for-the-badge)
   ![Python](https://img.shields.io/badge/Python-3.x-green?style=for-the-badge&logo=python&logoColor=white)
   ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge&logo=windows&logoColor=white)
   ![Lisans](https://img.shields.io/badge/Lisans-Özel-orange?style=for-the-badge)
@@ -35,15 +35,19 @@ Uygulama, farklı donanım bileşenlerinin tüm olası kombinasyonlarını otoma
 ### Bileşen Yönetimi
 | Bileşen | Açıklama |
 |---------|----------|
-| 🧠 **Normal RAM** | 16GB – 256GB arası standart RAM seçenekleri |
-| 💻 **Notebook RAM** | Standart ve Manuel mod (2 RAM slotu + maliyet) desteği |
-| 🔒 **ECC RAM** | 16GB – 512GB arası sunucu sınıfı RAM seçenekleri |
+| 🧠 **Normal RAM** | 4GB – 256GB arası standart RAM seçenekleri (Standart / Manuel mod) |
+| 💻 **Notebook RAM** | 4GB – 256GB arası notebook RAM seçenekleri (Standart / Manuel mod) |
+| 🔒 **ECC RAM** | 16GB – 512GB arası sunucu sınıfı RAM seçenekleri (Standart / Manuel mod) |
 | 💾 **M.2 SSD** | 128GB – 8TB arası NVMe SSD seçenekleri |
 | 📀 **SATA SSD** | 128GB – 8TB arası SATA SSD seçenekleri |
 | 🗄️ **HDD** | 1TB – 20TB arası sabit disk seçenekleri |
 | 🎮 **Ekran Kartı (GPU)** | Dinamik GPU ekleme/silme ile sınırsız GPU desteği |
 | 🖥️ **Notebook Ekran Boyutu** | İnç cinsinden ekran boyutu tanımlama |
 | 🪟 **İşletim Sistemi** | FreeDOS ve Windows (özelleştirilebilir ad) seçenekleri |
+
+> **Not:** Tüm RAM bileşenleri (Normal, Notebook, ECC) iki modda çalışır:
+> - **Standart mod:** Önceden tanımlı kapasite seçeneklerinden maliyet girişi
+> - **Manuel mod:** RAM 1 (GB) + RAM 2 (GB) + Maliyet şeklinde serbest satır girişi (dinamik satır ekleme/silme)
 
 ### Fiyatlandırma & Hesaplama
 - **KDV Hesaplaması:** Özelleştirilebilir KDV oranı ile otomatik hesaplama
@@ -59,7 +63,7 @@ Uygulama, farklı donanım bileşenlerinin tüm olası kombinasyonlarını otoma
 - 💰 **Para birimi ve yüzde formatları** otomatik uygulanır
 
 ### Diğer
-- 🔄 **Otomatik güncelleme**
+- 🔄 **Otomatik güncelleme** – GitHub Release üzerinden sessiz güncelleme
 - 🔁 **Form sıfırlama** – Tek tıkla tüm alanları temizleme
 - 🖱️ **Kaydırılabilir arayüz** – Mouse tekerleği ile kolay navigasyon
 - 🎨 **Göz dostu tasarım** – Sıcak tonlarda soft renk paleti
@@ -100,7 +104,12 @@ Uygulamanın içerisinde dahili bir otomatik güncelleme modülü bulunmaktadır
 
 ## 📝 Değişiklik Günlüğü
 
-### v2.2.11 (Güncel)
+### v2.2.12 (Güncel)
+- 🆕 Normal RAM: Standart/Manuel mod eklendi (2 RAM slotu + maliyet girişi)
+- 🆕 ECC RAM: Standart/Manuel mod eklendi (2 RAM slotu + maliyet girişi)
+- 🏷️ Uygulama ismi güncellendi
+
+### v2.2.11
 - 🆕 Notebook RAM: Manuel mod eklendi (2 RAM slotu + maliyet girişi)
 - 🗑️ Onboard seçenekleri kaldırıldı
 
