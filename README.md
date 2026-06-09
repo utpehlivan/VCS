@@ -3,7 +3,7 @@
   <h3>Varyant Konfigürasyon Sistemi</h3>
   <p>Bilgisayar bileşenleri ve donanım varyantları için gelişmiş maliyet ve kâr hesaplama otomasyonu.</p>
 
-  ![Sürüm](https://img.shields.io/badge/Sürüm-v2.2.21-blue?style=for-the-badge)
+  ![Sürüm](https://img.shields.io/badge/Sürüm-v2.2.22-blue?style=for-the-badge)
   ![Python](https://img.shields.io/badge/Python-3.x-green?style=for-the-badge&logo=python&logoColor=white)
   ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge&logo=windows&logoColor=white)
   ![Lisans](https://img.shields.io/badge/Lisans-Proprietary-red?style=for-the-badge)
@@ -105,13 +105,16 @@ Uygulamanın içerisinde dahili bir otomatik güncelleme modülü bulunmaktadır
 
 ## 📝 Değişiklik Günlüğü
 
-### v2.2.21 (Güncel)
+### v2.2.22 (Güncel)
+- 🚀 Güncelleme mekanizmasındaki sorunlar giderildi. Artık ilk güncellemede sorun yaşanmıyor ve güncelleme sonrası uygulama otomatik yeniden başlatılıyor.
+
+### v2.2.21
 - 🆕 Cihaz Adı alanı "Cihaz Marka ve Model Adı" olarak güncellendi.
 - 🆕 İşlemci bilgisi alanı eklendi (Excel konfigürasyon adında cihaz adı ile birleştirilerek gösterilir).
 - 📜 Lisans tamamen proprietary (özel mülk) olarak güncellendi.
 
 ### v2.2.20
-- 🚀 Güncelleme dosyasının indirme hatası giderildi (create_release.py iyileştirildi).
+- 🚀 Güncelleme dosyasının indirme hatası giderildi.
 
 ### v2.2.19
 - 🚀 Genel iyileştirmeler ve hata düzeltmeleri yapıldı.
