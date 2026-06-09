@@ -110,6 +110,7 @@ Uygulamanın içerisinde dahili bir otomatik güncelleme modülü bulunmaktadır
 - 🏷️ Uygulama içi etiketlerde iyileştirmeler yapıldı ("Cihazın Maliyeti" -> "Taban Maliyet").
 
 ### v2.2.16
+- 🚀 Genel iyileştirmeler ve hata düzeltmeleri yapıldı
 
 ### v2.2.15
 - 🚀 Genel iyileştirmeler ve hata düzeltmeleri yapıldı
