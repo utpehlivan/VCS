@@ -3,7 +3,7 @@
   <h3>Varyant Konfigürasyon Sistemi</h3>
   <p>Bilgisayar bileşenleri ve donanım varyantları için gelişmiş maliyet ve kâr hesaplama otomasyonu.</p>
 
-  ![Sürüm](https://img.shields.io/badge/Sürüm-v2.2.15-blue?style=for-the-badge)
+  ![Sürüm](https://img.shields.io/badge/Sürüm-v2.2.16-blue?style=for-the-badge)
   ![Python](https://img.shields.io/badge/Python-3.x-green?style=for-the-badge&logo=python&logoColor=white)
   ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge&logo=windows&logoColor=white)
   ![Lisans](https://img.shields.io/badge/Lisans-Özel-orange?style=for-the-badge)
@@ -104,10 +104,10 @@ Uygulamanın içerisinde dahili bir otomatik güncelleme modülü bulunmaktadır
 
 ## 📝 Değişiklik Günlüğü
 
-### v2.2.15 (Güncel)
-- 🚀 Genel iyileştirmeler ve zorunlu güncelleme altyapısı.
+### v2.2.16 (Güncel)
+- 🚀 Genel iyileştirmeler ve hata düzeltmeleri yapıldı.
 
-### v2.2.14
+### v2.2.15
 - 🚀 Genel iyileştirmeler ve hata düzeltmeleri yapıldı
 
 ### v2.2.13
