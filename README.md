@@ -85,7 +85,7 @@ Uygulama, farklı donanım bileşenlerinin tüm olası kombinasyonlarını otoma
 ## 💡 Kullanım
 
 1. **Cihaz Bilgilerini Girin** – Model adı ve orijinal barkod numarasını yazın.
-2. **Maliyet Ayarlarını Belirleyin** – Kasa maliyeti ($), KDV oranı, GK kâr oranı ve pazaryeri kâr oranını girin.
+2. **Maliyet Ayarlarını Belirleyin** – Taban Maliyet ($), KDV oranı, GK kâr oranı ve pazaryeri kâr oranını girin.
 3. **Bileşenleri Seçin** – İstediğiniz bileşen kategorilerini aktif edin ve her birinin maliyetini dolar cinsinden girin.
 4. **Excel Çıktısı Alın** – "EXCEL ÇIKTISI AL" butonuna tıklayarak tüm varyantları içeren Excel dosyasını oluşturun.
 
@@ -98,7 +98,7 @@ Uygulamanın içerisinde dahili bir otomatik güncelleme modülü bulunmaktadır
 1. Uygulama her açılışta arka planda güncellemeleri kontrol eder.
 2. Yeni bir sürüm tespit edildiğinde güncelleme bildirimi gözükür.
 3. "Güncelle" butonuna tıkladığında, yeni sürüm indirilir.
-4. İndirme tamamlandıktan sonra bir hata mesajı gelmesini beklemelisiniz, hata mesajı geldikten sonra hata penceresini kapatın ve uygulamayı açtığınızda yeni sürüme geçmiş olacaktır.
+4. İndirme tamamlandıktan sonra uygulama tamamen kapanacaktır. Uygulamayı yeniden açtığınızda yeni sürüme geçmiş olursunuz.
 
 ---
 
@@ -107,6 +107,7 @@ Uygulamanın içerisinde dahili bir otomatik güncelleme modülü bulunmaktadır
 ### v2.2.17 (Güncel)
 - 🚀 Genel iyileştirmeler ve hata düzeltmeleri yapıldı.
 - 🛑 Otomatik yeniden başlatma kaldırıldı, güncelleme sonrası program sadece kapanır.
+- 🏷️ Uygulama içi etiketlerde iyileştirmeler yapıldı ("Cihazın Maliyeti" -> "Taban Maliyet").
 
 ### v2.2.16
 
