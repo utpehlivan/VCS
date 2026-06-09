@@ -105,7 +105,7 @@ Uygulamanın içerisinde dahili bir otomatik güncelleme modülü bulunmaktadır
 ## 📝 Değişiklik Günlüğü
 
 ### v2.2.20 (Güncel)
-- 🚀 Güncelleme dosyasının indirme hatası giderildi (create_release.py iyileştirildi).
+- 🚀 Güncelleme dosyasının indirme hatası giderildi.
 
 ### v2.2.19
 - 🚀 Genel iyileştirmeler ve hata düzeltmeleri yapıldı.
