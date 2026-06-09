@@ -3,10 +3,10 @@
   <h3>Varyant Konfigürasyon Sistemi</h3>
   <p>Bilgisayar bileşenleri ve donanım varyantları için gelişmiş maliyet ve kâr hesaplama otomasyonu.</p>
 
-  ![Sürüm](https://img.shields.io/badge/Sürüm-v2.2.20-blue?style=for-the-badge)
+  ![Sürüm](https://img.shields.io/badge/Sürüm-v2.2.21-blue?style=for-the-badge)
   ![Python](https://img.shields.io/badge/Python-3.x-green?style=for-the-badge&logo=python&logoColor=white)
   ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge&logo=windows&logoColor=white)
-  ![Lisans](https://img.shields.io/badge/Lisans-Özel-orange?style=for-the-badge)
+  ![Lisans](https://img.shields.io/badge/Lisans-Proprietary-red?style=for-the-badge)
 </div>
 
 ---
@@ -35,6 +35,7 @@ Uygulama, farklı donanım bileşenlerinin tüm olası kombinasyonlarını otoma
 ### Bileşen Yönetimi
 | Bileşen | Açıklama |
 |---------|----------|
+| 🏷️ **Cihaz & İşlemci** | Cihaz Marka ve Model Adı ve opsiyonel İşlemci bilgisi (Excel çıktısına otomatik eklenir) |
 | 🧠 **Normal RAM** | 4GB – 256GB arası standart RAM seçenekleri (Standart / Manuel mod) |
 | 💻 **Notebook RAM** | 4GB – 256GB arası notebook RAM seçenekleri (Standart / Manuel mod) |
 | 🔒 **ECC RAM** | 16GB – 512GB arası sunucu sınıfı RAM seçenekleri (Standart / Manuel mod) |
@@ -84,7 +85,7 @@ Uygulama, farklı donanım bileşenlerinin tüm olası kombinasyonlarını otoma
 
 ## 💡 Kullanım
 
-1. **Cihaz Bilgilerini Girin** – Model adı ve orijinal barkod numarasını yazın.
+1. **Cihaz Bilgilerini Girin** – Marka ve Model adını, istenirse işlemciyi ve orijinal barkod numarasını yazın.
 2. **Maliyet Ayarlarını Belirleyin** – Taban Maliyet ($), KDV oranı, GK kâr oranı ve pazaryeri kâr oranını girin.
 3. **Bileşenleri Seçin** – İstediğiniz bileşen kategorilerini aktif edin ve her birinin maliyetini dolar cinsinden girin.
 4. **Excel Çıktısı Alın** – "EXCEL ÇIKTISI AL" butonuna tıklayarak tüm varyantları içeren Excel dosyasını oluşturun.
@@ -104,8 +105,13 @@ Uygulamanın içerisinde dahili bir otomatik güncelleme modülü bulunmaktadır
 
 ## 📝 Değişiklik Günlüğü
 
-### v2.2.20 (Güncel)
-- 🚀 Güncelleme dosyasının indirme hatası giderildi.
+### v2.2.21 (Güncel)
+- 🆕 Cihaz Adı alanı "Cihaz Marka ve Model Adı" olarak güncellendi.
+- 🆕 İşlemci bilgisi alanı eklendi (Excel konfigürasyon adında cihaz adı ile birleştirilerek gösterilir).
+- 📜 Lisans tamamen proprietary (özel mülk) olarak güncellendi.
+
+### v2.2.20
+- 🚀 Güncelleme dosyasının indirme hatası giderildi (create_release.py iyileştirildi).
 
 ### v2.2.19
 - 🚀 Genel iyileştirmeler ve hata düzeltmeleri yapıldı.
